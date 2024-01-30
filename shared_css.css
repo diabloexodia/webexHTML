@@ -1,0 +1,27 @@
+#material-symbols-outlined-enter,#material-symbols-outlined-today,#material-symbols-outlined-vcam {
+    background-color: rgb(23, 237, 208);  /* Set background color */
+    border-radius: 50%;      /* Make it a circle */
+  
+    padding: 9px;             /* Adjust spacing as needed */
+  }
+.settings-and-help-item-icon,
+.meeting-details-items-logo,
+.call-quick-access-item-icon {
+    width: 1.5rem;
+    height: fit-content;
+}
+.settings-and-help-item,
+.call-quick-access-item {
+  display: flex;
+  padding: 0.3rem;
+  border-radius: 15px;
+  align-items: center;
+  /* background-color: rgba(244, 243, 240, 0.4); */
+}
+.wifi-nav-logo,
+.round-attendees-nav-profile {
+  display: flex;
+  border-radius: 5px;
+  width: 2rem;
+  height: fit-content;
+}  
