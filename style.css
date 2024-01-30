@@ -1,0 +1,184 @@
+*,
+::before,
+::after {
+  margin: 0px;
+  padding: 0px;
+}
+.round-attendees-nav {
+  display: flex;
+  flex-direction: row;
+}
+.main-nav {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(33, 33, 33);
+  gap: 2rem;
+  height: 2.5rem;
+  align-items: center;
+  width: 100%;
+  border: 1px solid black;
+}
+.wifi-nav-logo,
+.round-attendees-nav-profile {
+  display: flex;
+  border-radius: 5px;
+  width: 2rem;
+  height: fit-content;
+}
+.wifi-nav-logo {
+  display: flex;
+  justify-self: right;
+}
+.search-bar-nav {
+  width: 100%;
+
+  height: fit-content;
+}
+.search-bar {
+  display: flex;
+  border-radius: 12px;
+  width: 15rem;
+  color: azure;
+
+  background-color: rgb(54, 52, 52);
+  justify-self: flex-start;
+
+  height: 1.5rem;
+  text-indent: 35px;
+}
+.main-body {
+  display: flex;
+  flex-direction: row;
+}
+.call-quick-access {
+  height: 80%;
+}
+.left-menu {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 13%;
+  font-family: "Inter", sans-serif;
+  background: radial-gradient(
+    circle at 12.3% 19.3%,
+    rgb(8, 11, 188) 0%,
+    rgb(41, 41, 149) 100.2%
+  );
+  color: azure;
+  height: 100vh;
+  padding: 0.5%;
+  padding-top: 0.7%;
+  border-right: 1px solid black;
+}
+
+.call-quick-access-list {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+
+  justify-content: center;
+  align-items: left;
+  list-style: none;
+}
+.settings-and-help {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+
+  justify-content: center;
+  align-items: left;
+  list-style: none;
+}
+.settings-and-help-item,
+.call-quick-access-item {
+  display: flex;
+  padding: 0.3rem;
+  border-radius: 15px;
+  align-items: center;
+  /* background-color: rgba(244, 243, 240, 0.4); */
+}
+
+.settings-and-help-item-icon,
+.meeting-details-items-logo,
+.call-quick-access-item-icon {
+  width: 1.5rem;
+  height: fit-content;
+}
+.meeting-details-items {
+  color: azure;
+}
+.chubb-logo-icon {
+  height: 3rem;
+  width: fit-content;
+}
+.meeting-details-list {
+  display: flex;
+  gap: 0.5rem;
+  background-color: rgb(54, 52, 52);
+  align-items: center;
+  flex-direction: row;
+  font-size: 17px;
+  list-style: none;
+  text-align: center;
+}
+.main-window-right {
+  background-color: rgb(54, 52, 52);
+  padding: 1rem;
+  width: 100%;
+  height: fit-content;
+}
+.meeting-icons-together {
+  display: flex;
+  padding: 2rem;
+  align-items: center;
+  /* width: 100vh; */
+  flex-direction: row;
+  justify-content: space-around;
+}
+.meeting-icons-logo {
+  /* height: 2rem; */
+  width: 2.5rem;
+  background-color: aquamarine;
+  border-radius: 20px;
+  justify-self: center;
+  height: fit-content;
+}
+.meeting-icons {
+  align-items: center;
+  width: 9rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+p {
+  color: azure;
+  font-family: "Inter", sans-serif;
+}
+.material-symbols-outlined {
+  color: white;
+}
+.meeting-recap {
+  display: flex;
+  flex-direction: row;
+  background-color: rgb(36, 34, 34);
+  border-radius: 10px;
+  height: 2rem;
+  align-items: center;
+  justify-content: start;
+}
+.meeting-recap-items-cd {
+  width: 7%;
+
+  border-radius: 10px;
+
+  margin-left: 5px;
+}
+.meeting-recap-items-mr {
+  width: 67%;
+}
+.meeting-recap-items-fr {
+  width: 13%;
+}
+.meeting-recap-items-td {
+  width: 5%;
+}
