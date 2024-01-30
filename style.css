@@ -212,4 +212,13 @@
   overflow-y: scroll;
   height: 60vh;
 }
+.meeting-history-main::-webkit-scrollbar {
+  width: 8px; /* Width of the scrollbar track */
+  background-color: #282626; /* Background color of the scrollbar track */
+}
+
+.meeting-history-main::-webkit-scrollbar-thumb {
+  background-color: #ddd; /* Background color of the scrollbar thumb */
+  border-radius: 5px; /* Rounded corners for the thumb */
+}
 
